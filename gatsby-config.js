@@ -5,6 +5,7 @@ module.exports = {
   },
   plugins: [
     // autres plugins
+    'gatsby-plugin-netlify-cache',
     `gatsby-plugin-netlify-cms`,
   ],
 };
